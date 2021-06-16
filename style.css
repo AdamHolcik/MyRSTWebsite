@@ -1,14 +1,26 @@
 .title {
-	    color: rgb(2, 179, 2);
+	  color: rgb(2, 179, 2);
 		background-color: rgb(83, 25, 25);
     font-size: 50px;
     font-family: "Tahoma";
     text-align: center;
 }
 
-img.resize {
+img.resizeleft {
   max-width:22%;
   max-height:22%;
 	float: right;
 	}
 
+img.resizebod {
+  max-width:15%;
+  max-height:15%;
+  border-radius: 50%;
+  border-style: solid;
+	border-width: 5px;
+	border-color: green;
+	}
+
+h3 {
+	background-color: cornflowerblue;
+}
