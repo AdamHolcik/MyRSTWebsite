@@ -5,7 +5,12 @@
     font-family: "Tahoma";
     text-align: center;
 }
-
+.txt {
+	font-family: 'Permanent Marker', cursive, 'Tahoma';
+}
+.txt2 {
+	font-family: 'Staatliches', cursive, 'Tahoma';
+}
 img.resizeleft {
 	--horizontal-size: 200px;
   --vertical-size: 1px;
