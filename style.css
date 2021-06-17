@@ -7,9 +7,15 @@
 }
 
 img.resizeleft {
-  max-width:22%;
+	--horizontal-size: 200px;
+  --vertical-size: 1px;
+	max-width:22%;
   max-height:22%;
 	float: right;
+	padding-left: var(--horizontal-size);
+	padding-right: var(--horizontal-size);
+	padding-top: var(--vertical-size);
+	padding-bottom: var(--vertical-size);
 	}
 
 img.resizebod {
@@ -23,4 +29,7 @@ img.resizebod {
 
 h3 {
 	background-color: cornflowerblue;
+}
+body {
+	background-color: rgb(214, 213, 213);
 }
